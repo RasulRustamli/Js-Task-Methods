@@ -54,7 +54,7 @@ let arr=[2,34,54,23,12,22]
 //     }
 // console.log(some);
 //----------LastIndexOf-----------
-for (let index = arr.length; index >= 0; index--) {
+for (let index = arr.length-1; index >= 0; index--) {
     if(arr[index]==5){
         console.log(index);
         break;

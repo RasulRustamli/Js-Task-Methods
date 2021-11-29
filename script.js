@@ -35,15 +35,17 @@ let arr=[2,34,54,23,12,22]
 //     }
 // }
 //-----------Every-----------
-// for (let index = 0; index < arr.length; index++) {
-//     if(arr[index] > 5){
-//         console.log(true);
-//     }
-//     else {
-//         console.log(false);
-//         break;
-//     }
-// }
+var everyy=true;
+ for (let index = 0; index < arr.length; index++) {
+     if(arr[index] > 1){
+        
+     }
+     else {
+        everyy=false;
+        break;
+     }
+ }
+ console.log(everyy);
 //----------Some--------------
 // var some=false;
 // for (let index = 0; index < arr.length; index++) {
@@ -54,9 +56,9 @@ let arr=[2,34,54,23,12,22]
 //     }
 // console.log(some);
 //----------LastIndexOf-----------
-for (let index = arr.length-1; index >= 0; index--) {
-    if(arr[index]==5){
-        console.log(index);
-        break;
-    }
-}
+// for (let index = arr.length-1; index >= 0; index--) {
+//     if(arr[index]==5){
+//         console.log(index);
+//         break;
+//     }
+// }
